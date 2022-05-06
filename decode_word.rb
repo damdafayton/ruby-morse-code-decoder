@@ -15,13 +15,10 @@ def decode_word(let)
   end
 
   letters_list = let.split
-
   word = ''
 
   letters_list.each do |letter|
     word += reverse_dict[letter]
   end
-
   word
 end
-

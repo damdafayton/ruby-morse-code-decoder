@@ -21,4 +21,3 @@ def decode(let)
   end
   sentence
 end
-
