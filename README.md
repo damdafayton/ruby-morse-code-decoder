@@ -1,49 +1,49 @@
-# databases-projects
+# Decoder Morse Message
 
-> During your vacation at the seaside, time after time you find old bottles with parchment inside. Out of curiosity, you look into the next bottle and see that there is a message written in Morse code. Your curiosity grows even more - maybe you just found the lost treasure of the pirates! However, you are getting tired of decrypting messages manually. Fortunately, you can program in Ruby and you can help yourself by automating this process.
+## Description
+
+> This project is about a short program that helps users to decode any message coded or written from Morse to any Latin based language.
+
+## Built With
+
+- Ruby
 
 ## Getting Started
 
-To run the project locally run the following:
+To get the content of this project locally you need to run these commands in your terminal.
+Before starting the steps below, be sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/).
 
-    git clone https://github.com/damdafayton/
-    ruby-morse-code-decoder.git
+1. Download the `Zip` or clone it with `git clone https://github.com/damdafayton/ ruby-morse-code-decoder`
+2. `cd ruby-morse-code-decoder`
 
-You need to install dependancies before you can run the project.
+## Authors
 
-    $ gem install ruby-morse
+👤 **Mwafrika Josue**
 
-## Author 1
-
-👤 **Mwafrika Josué**
-
-- GitHub: [@githubhandle](https://github.com/mwafrika)
-- Twitter: [@twitterhandle](https://twitter.com/mwafrikamufung1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mwafrika-mufungizi)
-
-## Author 2
+- GitHub: [@mwafrika](https://github.com/mwafrika)
+- Twitter: [@mwafrika](@mwafrikamufung1)
+- LinkedIn: [Mwafrika Mufungizi](https://www.linkedin.com/in/mwafrika-mufungizi/)
 
 👤 **Yucel**
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- GitHub: [@damdafayton](https://github.com/damdafayton)
+- Twitter: [@damdafayton](https://twitter.com/damdafayton)
+- LinkedIn: [damdafayton](https://www.linkedin.com/in/damdafayton/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mwafrika/
+ruby-morse-code-decoder/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgements
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to everyone who will get time to check this project especially to code reviewers.
 
 ## 📝 License
 
