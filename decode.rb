@@ -22,4 +22,3 @@ def decode(let)
   sentence
 end
 
-print decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')

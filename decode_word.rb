@@ -25,4 +25,3 @@ def decode_word(let)
   word
 end
 
-print decode_word('.-   -... --- -..-')
