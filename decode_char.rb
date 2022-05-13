@@ -1,9 +1,7 @@
-# frozen_string_literal: true
-
-require('./morse_dict')
+# require('./morse_dict')
 
 def decode_char(let)
-  @morse_dict = {
+  morse_dict = {
     'a' => '.-', 'b' => '-...', 'c' => '-.-.', 'd' => '-..', '4' => '....-',
     'g' => '--.', 'k' => '-.-', 'l' => '.-..', 'm' => '--', 'f' => '..-.',
     'n' => '-.', 'o' => '---', 'w' => '.--', '2' => '..---', '3' => '...--',
@@ -21,5 +19,3 @@ def decode_char(let)
 
   reverse_dict[let]
 end
-
-decode_char('.-')

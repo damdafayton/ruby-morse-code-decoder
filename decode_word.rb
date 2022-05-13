@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-
 def decode_word(let)
-  @morse_dict = {
+  morse_dict = {
     'a' => '.-', 'b' => '-...', 'c' => '-.-.', 'd' => '-..', '4' => '....-',
     'g' => '--.', 'k' => '-.-', 'l' => '.-..', 'm' => '--', 'f' => '..-.',
     'n' => '-.', 'o' => '---', 'w' => '.--', '2' => '..---', '3' => '...--',
@@ -18,7 +16,7 @@ def decode_word(let)
     reverse_dict[value] = key
   end
 
-  letters_list = let.split(' ')
+  letters_list = let.split
 
   word = ''
 

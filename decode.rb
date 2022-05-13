@@ -1,7 +1,5 @@
-# frozen_string_literal: true
-
 def decode(let)
-  @morse_dict = {
+  morse_dict = {
     'a' => '.-', 'b' => '-...', 'c' => '-.-.', 'd' => '-..', '4' => '....-',
     'g' => '--.', 'k' => '-.-', 'l' => '.-..', 'm' => '--', 'f' => '..-.',
     'n' => '-.', 'o' => '---', 'w' => '.--', '2' => '..---', '3' => '...--',
@@ -19,7 +17,7 @@ def decode(let)
   words_list = let.split('   ')
   sentence = ''
   words_list.each_with_index do |word, idx|
-    letters_list = word.split(' ')
+    letters_list = word.split
     letters_list.each do |letter|
       sentence += reverse_dict[letter]
     end
