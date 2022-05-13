@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-def decode_word(let)
+require('./morse_dict')
+
+def decode_char(let)
   @morse_dict = {
     'a' => '.-', 'b' => '-...', 'c' => '-.-.', 'd' => '-..', '4' => '....-',
     'g' => '--.', 'k' => '-.-', 'l' => '.-..', 'm' => '--', 'f' => '..-.',
@@ -13,18 +15,11 @@ def decode_word(let)
   }
 
   reverse_dict = {}
-
   morse_dict.each do |key, value|
     reverse_dict[value] = key
   end
 
-  letters_list = let.split(' ')
-
-  word = ''
-
-  letters_list.each do |letter|
-    word += reverse_dict[letter]
-  end
-
-  word
+  reverse_dict[let]
 end
+
+decode_char('.-')
